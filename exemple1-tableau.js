@@ -4,5 +4,4 @@ var oldLangage = 'Cobol';
 
 var cvSearchKeyWords = [oldLangage, ...langages, newLangage]
 
-console.log(cvSearchKeyWords);
-
+console.log(cvSearchKeyWords); // [ 'Cobol', 'C#', 'T-SQL', 'Javascript', 'Angular', 'React js' ]
