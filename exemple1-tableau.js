@@ -1,7 +1,7 @@
-var langages = ['C#', 'T-SQL', 'Javascript', 'Angular'];
-var newLangage = 'React js';
+var langages = ['C#', 'T-SQL',];
+var newLangage = 'Javascript';
 var oldLangage = 'Cobol';
 
 var cvSearchKeyWords = [oldLangage, ...langages, newLangage]
 
-console.log(cvSearchKeyWords); // [ 'Cobol', 'C#', 'T-SQL', 'Javascript', 'Angular', 'React js' ]
+console.log(cvSearchKeyWords); // [ 'Cobol', 'C#', 'T-SQL', 'Javascript' ]
